@@ -42,6 +42,7 @@ body {
   border-radius: 20px;
   font-size: 32px;
   margin-top: 8px;
+  visibility: hidden;
 }
 .game__score {
   text-align: center;
@@ -53,13 +54,14 @@ body {
   border-radius: 50%;
   background-color: darksalmon;
   color: white;
+  visibility: hidden;
 }
 
 .game__field {
+  position: relative;
   width: 100%;
   height: 100%;
   margin-top: 40px;
-  opacity: 0.6;
 }
 
 .pop-up {
